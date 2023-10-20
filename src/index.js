@@ -8,6 +8,7 @@ const zombie = new Zombie('zombie');
 const undead = new Undead('undead');
 const team = new Team();
 team.addAll(swordman, zombie, undead);
-console.log(team.iterate());
-console.log(team.iterate());
-console.log(team.iterate());
+console.log(...team);
+
+// console.log(team.iterate());
+// console.log(team.iterate());
